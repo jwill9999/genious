@@ -24,32 +24,39 @@ This theme relies on **NPM** and **Composer** in order to load dependencies and 
 * ONLY CHANGE FILES situated inside the assets folder. Here you will find Javascript and sass files. Your personal added Javascript can be added to the genious.js file. All sass files are imported into the index.scss file
 
 ```
-> git clone https://github.com/jwill9999/recipe-app.git
-> cd recipe-app
+> install wordpress
+> cd into wp-content/themes then ...
+> git clone https://github.com/jwill9999/genious.git
+> cd genious
 > npm install
-> ng serve
+> move the example files ".composer-example.json" , ".wp-config-example.php", and ".env.example" to the root of your WORDPRESS folder. Remove the word example and amend as required.
+> install composer in root wordpress folder structure by running ...
+> php composer.phar install
 
-To Log In to example project
-
-> User :      admin@admin.com
-> password:   123456
+> cd back into your Genious theme folder ...
+> cd ./wp-content/themes/genious
+> to start server and to watch for file changes run
+> npm run gulp
 ```
 
 ## Project View
 
-![](./src/assets/images/recipebook.png)
+![](./screenshot.png)
 
-# RecipeApp
+# Genious Starter Development Framework Wordpress
 
-A comprehensive Angular application covering all of the Angular 4 updates. The project focuses on the key features and skills required to successfully implement a modern angular application. The code is commented for easy reference and links below provide additional resources. Fully functional CRUD operations with http access using RxJs observables.
+This is a developer theme based on Underscore It incorporates Bootstrap 4 and jQuery. Environmental variables and managed safely using the DotEnv package.
+The development server uses auto browser refreshing as well as gulp to compile your sass files and to watch for file structure changes. You can also use the latest ES6/7 javascript language within your javascript files.
 
-## Key features
+<hr>
+
+# Key features
 
 > Genious Wordpress developer theme
 
 > Gulp task runner
 
-> browser-sync for live reloading in development
+> Browser-sync for live reloading in development
 
 > Sass CSS compilation
 
@@ -71,7 +78,9 @@ A comprehensive Angular application covering all of the Angular 4 updates. The p
 
 ... to name a few
 
-## Links
+<hr>
+
+# Links
 
 [Underscore base theme](https://underscores.me/)
 
@@ -88,5 +97,3 @@ A comprehensive Angular application covering all of the Angular 4 updates. The p
 This project was generated with [Underscore.io](https://underscores.me/), [Bootstrap 4](https://getbootstrap.com/), as well as [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv)
 
 <hr>
-
-## Development server

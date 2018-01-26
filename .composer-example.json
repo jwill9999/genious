@@ -1,0 +1,13 @@
+{
+  "name": "add your title",
+  "description": "add your description",
+  "authors": [
+    {
+      "name": "Add your name",
+      "email": "add your email"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^2.4"
+  }
+}

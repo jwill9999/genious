@@ -24,5 +24,8 @@
     "gulp-sourcemaps": "^2.6.3",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^5.0.0"
+  },
+  "repository": {
+    "url": "https://github.com/jwill9999/genious.git"
   }
 }
