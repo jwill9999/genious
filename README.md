@@ -26,7 +26,7 @@ This theme relies on **NPM** and **Composer** in order to load dependencies and 
 ```
 > install wordpress
 > cd into wp-content/themes then ...
-> git clone https://github.com/jwill9999/genious.git
+> git clone https://github.com/jwill9999/glorious.git
 > cd glorious
 > npm install
 > move the example files ".composer-example.json" , ".wp-config-example.php", and ".env.example" to the root of your WORDPRESS folder. Remove the word example and amend as required.
