@@ -43,7 +43,7 @@ This theme relies on **NPM** and **Composer** in order to load dependencies and 
 
 ![](./screenshot.png)
 
-# Genious Starter Development Framework Wordpress
+# Glorious Starter Development Framework Wordpress
 
 This is a developer theme based on Underscore It incorporates Bootstrap 4 and jQuery. Environmental variables and managed safely using the DotEnv package.
 The development server uses auto browser refreshing as well as gulp to compile your sass files and to watch for file structure changes. You can also use the latest ES6/7 javascript language within your javascript files.
