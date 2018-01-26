@@ -1,4 +1,4 @@
-# Genious starter Developer Framework
+# Glorious starter Developer Framework
 
 ## Prerequisites
 
@@ -27,14 +27,14 @@ This theme relies on **NPM** and **Composer** in order to load dependencies and 
 > install wordpress
 > cd into wp-content/themes then ...
 > git clone https://github.com/jwill9999/genious.git
-> cd genious
+> cd glorious
 > npm install
 > move the example files ".composer-example.json" , ".wp-config-example.php", and ".env.example" to the root of your WORDPRESS folder. Remove the word example and amend as required.
 > install composer in root wordpress folder structure by running ...
 > php composer.phar install
 
 > cd back into your Genious theme folder ...
-> cd ./wp-content/themes/genious
+> cd ./wp-content/themes/glorious
 > to start server and to watch for file changes run
 > npm run gulp
 ```
@@ -52,7 +52,7 @@ The development server uses auto browser refreshing as well as gulp to compile y
 
 # Key features
 
-> Genious Wordpress developer theme
+> Glorious Wordpress developer theme
 
 > Gulp task runner
 
